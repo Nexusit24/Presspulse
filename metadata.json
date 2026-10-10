@@ -1,0 +1,6 @@
+{
+  "name": "PressPulse Mobile Editor",
+  "description": "Ultra-lightweight WordPress publishing PWA for writing, formatting, and publishing long-form articles on Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

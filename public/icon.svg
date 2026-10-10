@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone padding -->
+  <rect width="512" height="512" rx="104" fill="url(#bgGrad)" />
+  <!-- Editorial Pen Nib & WordPress-inspired Publishing Symbol inside 80% safe zone -->
+  <g transform="translate(256, 256) scale(1.15)">
+    <!-- Document page outline -->
+    <rect x="-85" y="-105" width="170" height="210" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-width="6" stroke-opacity="0.2"/>
+    <!-- Text lines -->
+    <line x1="-55" y1="-65" x2="10" y2="-65" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-opacity="0.4"/>
+    <line x1="-55" y1="-35" x2="35" y2="-35" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-opacity="0.4"/>
+    <line x1="-55" y1="-5" x2="20" y2="-5" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-opacity="0.4"/>
+    <!-- Golden Quill Nib / Stylus -->
+    <path d="M-10,35 L45,-25 L75,5 L15,65 Z" fill="url(#accentGrad)" stroke="#fef3c7" stroke-width="3" />
+    <path d="M45,-25 L65,-45 L85,-25 L75,5 Z" fill="#b45309" />
+    <path d="M-10,35 L-25,50 L-15,65 L15,65 Z" fill="#f59e0b" />
+    <!-- Nib tip -->
+    <polygon points="-25,50 -35,75 -15,65" fill="#fef3c7" />
+    <!-- Nib slit -->
+    <line x1="-25" y1="50" x2="-2" y2="28" stroke="#78350f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-2" cy="28" r="3" fill="#78350f" />
+  </g>
+</svg>
